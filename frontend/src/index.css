@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+}
+
+html {
+    background: #05080d;
+}
+
+body {
+    margin: 0;
+
+    background:
+        radial-gradient(
+            circle at 80% 10%,
+            rgba(0, 229, 255, 0.045),
+            transparent 28%
+        ),
+        #05080d;
+
+    color: #e7edf5;
+
+    font-family:
+        "Inter",
+        Arial,
+        sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button {
+    border: 0;
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+    outline: 1px solid #00e5ff;
+    outline-offset: 2px;
+}
+
+::selection {
+    background: rgba(0, 229, 255, 0.25);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070b11;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #253143;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #344258;
+}
